@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Виталий Романенко](https://up.htmlacademy.ru/htmlcss/23/user/312903).
-* Наставник:[Дмитрий Иовлев] (https://htmlacademy.ru/profile/skywalker)
+* Наставник: [Дмитрий Иовлев](https://htmlacademy.ru/profile/skywalker).
 
 ---
 
