@@ -88,11 +88,41 @@
             Укажите предполагаемые даты поездки,
             и мы покажем вам лучшие предложения гостиниц в Седоне
           </p>
-          <span class="buttton">Поиск гостиницы в Седоне</span>
-          <!--Здесь будет форма поиска-->
+          <button type="button" class="buttton-search">Поиск гостиницы в Седоне</button>
+          <section class="search">
+            <h2 class="visually-hidden">Поиск гостиницы в Седоне</h2>
+            <form class="form-search" action="https://echo.htmlacademy.ru" method="get">
+              <p class="search-item">
+                <label for="date-check-in">Дата заезда:</label>
+                <input id="date-check-in" type="text" name="date-check-in" placeholder="24 апреля 2017">
+                <button class="button button-calendar" type="button" aria-label="Календарь"></button>
+              </p>
+              <p class="search-item">
+                <label for="date-check-out">Дата выезда:</label>
+                <input id="date-check-out" type="text" name="data-check-out" placeholder="4 июля 2017">
+                <button class="button button-calendar" type="button" aria-label="Календарь"></button>
+              </p>
+              <p class="number-people">
+                <label for="people">Взрослые:</label>
+                <button class="button-people-less" type="button">-</button>
+                <input id="people" type="text" name="number">
+                <button class="button-people-more">+</button>
+              </p>
+              <p class="number-child">
+                <label for="child">Дети:</label>
+                <button class="button-child-less" type="button">-</button>
+                <input id="child" type="text" name="number">
+                <button class="button-child-more">+</button>
+              </p>
+              <button type="submit" class="button-search">Найти</button>
+            </form>
+          </section>
         </section>
         <section class="map">
-          <!--Здесь будет карта-->
+          <h2 class="visually-hidden">Как доехать к Седоне</h2>
+          <p>
+            <img width="1718" height="748" src="img/map.jpg" alt="Местоположение Седоны">
+          </p>
         </section>
       </main>
       <footer class="main-footer">
