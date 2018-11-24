@@ -64,20 +64,20 @@
             <legend>Стоимость в сутки (Р):</legend>
             <ul class="price">
               <li class="price-min">
-                <label for="price-number-min">От 0</label>
-                <input class="number-min" id="price-number-min" type="text" name="number">
+                <label for="price-number-min">От</label>
+                <input class="number-min" id="price-number-min" type="text" name="number-start" value="0">
               </li>
               <li class="price-max">
-                <label for="price-number-max">До 3000</label>
-                <input class="number-max" id="price-number-max" type="text" name="number">
+                <label for="price-number-max">До</label>
+                <input class="number-max" id="price-number-max" type="text" name="number-finish" value="3000">
               </li>
             </ul>
             <div class="filter-scale">
               <div class="filter-scale-item">
-                <input type="range" min="0" max="3000" step="10">
+                <button class="filter-scale-one" type="button" aria-label="Первый ползунок"></button>
               </div>
-              <div class="filter-scale-slider">
-                <button class="filter-scale-item" type="button" aria-label="Второй ползунок"></button>
+              <div class="filter-scale-item">
+                <button class="filter-scale-two" type="button" aria-label="Второй ползунок"></button>
               </div>
             </div>
           </fieldset>
