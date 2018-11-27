@@ -1,0 +1,187 @@
+body {
+  margin: 0;
+
+  font-family: "PT Sans", Arial, sans-serif;
+  font-size: 14px;
+  line-height: 26px;
+  font-weight: 400;
+  color: #000000;
+  text-transform: uppercase;
+
+  background-color: #ffffff;
+}
+
+a {
+  text-decoration: none;
+}
+
+nav {
+  font-weight: 700;
+  color: #000000;
+
+  background-color: #ffffff;
+}
+
+.site-navigation {
+  list-style: none;
+}
+
+.site-navigation a {
+  color: #000000;
+}
+
+.site-navigation a:hover,
+.site-navigation a:focus {
+  color: #81b3d2;
+}
+
+.site-navigation a:active {
+  color: #b2b2b2;
+}
+
+ol,
+.advantages-city-list {
+  list-style: none;
+}
+
+.advantages-city,
+.advantages-canyon {
+  text-align: center;
+}
+
+.advantages-city h3,
+.advantages-canyon h3 {
+  font-size: 21px;
+  line-height: 21px;
+}
+
+.advantages span {
+  font-size: 14px;
+  line-height: 21px;
+  color: #333333;
+}
+
+.advantages p {
+  font-size: 14px;
+  line-height: 21px;
+  color: #333333;
+}
+
+.advantages-city {
+  background-color: #eeeeee;
+}
+
+.advantages-city-list {
+  background-color: #ffffff;
+}
+
+.advantages-canyon {
+  background-color: #81b3d2;
+}
+
+.advantages-city-foto,
+.advantages-canyon-foto {
+  background-color: #ffffff;
+}
+
+.search b {
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 700;
+  color: #000000;
+}
+
+.search p {
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+}
+
+.buttton-search {
+  font: inherit;
+
+  text-align: center;
+  color: #ffffff;
+  vertical-align: middle;
+  text-transform: uppercase;
+
+  border: none;
+
+  background-color: #766357;
+}
+
+.buttton-search:hover,
+.buttton-search:focus {
+  background-color: #604e43;
+}
+.buttton-search:active {
+  background-color: #503e33;
+}
+
+.button-search-find {
+  font: inherit;
+
+  text-align: center;
+  color: #ffffff;
+  vertical-align: middle;
+  text-transform: uppercase;
+
+  border: none;
+
+  background-color: #81b3d2;
+}
+
+.button-search-find:hover,
+.button-search-find:focus {
+  background-color: #669ec0;
+}
+.button-search-find:active {
+  background-color: #5496bd;
+}
+
+.search input[type="text"]  {
+  font: inherit;
+  font-size: 14px;
+  line-height: 26px;
+  font-weight: 700;
+  color: #000000;
+  text-transform: uppercase;
+
+  background-color: #f2f2f2;
+}
+
+.search input:hover {
+  background-color: #ebebeb;
+}
+
+.search input:focus {
+  background-color: transparent;
+  border: 2px solid #e5e5e5;
+}
+
+.map{
+background-color: #ffffff;
+}
+
+.main-footer {
+  background-color: f9fbf5;
+}
+
+.footer-contact {
+  font-size: 21px;
+  line-height: 26px;
+  font-weight: 700;
+
+  color: #000000;
+}
+
+.footer-social ul {
+  list-style: none;
+}
+
+.footer-social a {
+  color: #000000;
+}
+
+
+
