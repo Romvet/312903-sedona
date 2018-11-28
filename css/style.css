@@ -15,7 +15,7 @@ a {
   text-decoration: none;
 }
 
-nav {
+.site-navigation {
   font-weight: 700;
   color: #000000;
 
@@ -38,19 +38,30 @@ nav {
 .site-navigation a:active {
   color: #b2b2b2;
 }
+.intro-headline {
+  font-size: 21px;
+  line-height: 26px;
+  font-weight: 700;
+  color: #000000;
+}
 
-ol,
+.greeting {
+  background-color: #ddebf4;
+  background-image: url("../img/background-photo.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.advantages,
 .advantages-city-list {
   list-style: none;
 }
 
-.advantages-city,
-.advantages-canyon {
+.advantages-city {
   text-align: center;
 }
 
-.advantages-city h3,
-.advantages-canyon h3 {
+.advantages-city h3 {
   font-size: 21px;
   line-height: 21px;
 }
@@ -75,7 +86,7 @@ ol,
   background-color: #ffffff;
 }
 
-.advantages-canyon {
+.canyon {
   background-color: #81b3d2;
 }
 
@@ -164,7 +175,7 @@ ol,
 }
 
 .main-footer {
-  background-color: f9fbf5;
+  background-color: #f9fbf5;
 }
 
 .footer-contact {
@@ -181,4 +192,19 @@ ol,
 
 .footer-social a {
   color: #000000;
+}
+.twitter{
+  background-color: #81b3d2;
+  background-image: url("../img/twitter.svg");
+  background-repeat: no-repeat;
+}
+.facebook{
+  background-color: #81b3d2;
+  background-image: url("../img/facebook.svg");
+  background-repeat: no-repeat;
+}
+.youtube{
+  background-color: #81b3d2;
+  background-image: url("../img/youtube.svg");
+  background-repeat: no-repeat;
 }
