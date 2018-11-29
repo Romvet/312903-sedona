@@ -193,18 +193,21 @@ a {
 .footer-social a {
   color: #000000;
 }
-.twitter {
+.social-button img {
   background-color: #81b3d2;
-  background-image: url("../img/twitter.svg");
-  background-repeat: no-repeat;
 }
-.facebook {
-  background-color: #81b3d2;
-  background-image: url("../img/facebook.svg");
-  background-repeat: no-repeat;
+.social-button img:hover,
+.social-button img:focus {
+  background-color: #669ec0;
 }
-.youtube {
-  background-color: #81b3d2;
-  background-image: url("../img/youtube.svg");
-  background-repeat: no-repeat;
+.social-button img:active{
+background-color: #5496bd;
+}
+
+.visually-hidden {
+  position: absolute;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
 }
