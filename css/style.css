@@ -200,8 +200,13 @@ a {
 .social-button img:focus {
   background-color: #669ec0;
 }
-.social-button img:active{
-background-color: #5496bd;
+.social-button img:active {
+  background-color: #5496bd;
+}
+
+.logo-svg:hover path,
+.logo-svg:focus path {
+  fill: #81b3d2;
 }
 
 .visually-hidden {
