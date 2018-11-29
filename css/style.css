@@ -171,7 +171,7 @@ a {
 }
 
 .map {
-  background-color: #ffffff;
+  background-color: #f2f1ef;
 }
 
 .main-footer {
@@ -193,20 +193,26 @@ a {
 .footer-social a {
   color: #000000;
 }
-.social-button img {
+.social-button svg {
   background-color: #81b3d2;
 }
-.social-button img:hover,
-.social-button img:focus {
+.social-button:hover svg,
+.social-button:focus svg {
   background-color: #669ec0;
 }
-.social-button img:active {
+.social-button:active svg {
   background-color: #5496bd;
+}
+.social-button:active svg path {
+  fill: #88b5d1;
 }
 
 .logo-svg:hover path,
 .logo-svg:focus path {
   fill: #81b3d2;
+}
+.logo-svg:active path {
+  fill: #bdbbbc;
 }
 
 .visually-hidden {
