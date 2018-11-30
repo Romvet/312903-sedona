@@ -11,6 +11,144 @@ body {
   background-color: #ffffff;
 }
 
+.filter {
+  background-color: #6a91b6;
+  background-image: url("../img/filter-background.png");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.filters fieldset {
+  border: none;
+}
+.filter legend {
+  font-size: 16px;
+  line-height: 21px;
+  font-weight: 700;
+  color: #ffffff;
+}
+.filter ul {
+  list-style: none;
+}
+.filter-option {
+  font-size: 14px;
+  line-height: 21px;
+  color: #ffffff;
+}
+
+.filter-option label::before {
+  content: open-quote;
+  background-color: #ffffff;
+  background-image: url("../img/checkbox-off.svg");
+  background-repeat: no-repeat;
+}
+
+.sorting-result {
+  font-size: 21px;
+  line-height: 26px;
+  font-weight: 700;
+  color: #000000;
+}
+
+.sorting h3 {
+  font-size: 12px;
+  line-height: 18px;
+  color: #000000;
+}
+
+.sorting-list,
+.hotels-list {
+  list-style: none;
+}
+.sorting-list li {
+  font-size: 12px;
+  line-height: 18px;
+
+  border-bottom: 1px dotted #81b3d2;
+}
+
+.sorting-button li {
+  list-style: none;
+}
+.sorting-button-up {
+  background-image: url("../img/icon-up-dir.svg");
+  background-repeat: no-repeat;
+}
+.button-show {
+  font-size: 14px;
+  line-height: 21px;
+  color: #ffffff;
+
+  background-color: transparent;
+  border: 2px solid #ffffff;
+}
+.filter-scale-item {
+  background-image: url("../img/filter-button.svg");
+  background-repeat: no-repeat;
+}
+.number-max,
+.number-min {
+  color: #ffffff;
+  border: 2px solid #ffffff;
+  background-color: transparent;
+}
+.price label {
+  font-size: 14px;
+  line-height: 21px;
+  color: #ffffff;
+}
+.button-info {
+  font-size: 14px;
+  line-height: 21px;
+  color: #ffffff;
+
+  background-color: #81b3d2;
+}
+.button-info:hover,
+.button-info:focus {
+  background-color: #669ec0;
+}
+.button-info:active {
+  color: #88b6d1;
+
+  background-color: #5496bd;
+}
+.button-reserve {
+  font-size: 14px;
+  line-height: 21px;
+  color: #ffffff;
+
+  background-color: #766357;
+}
+.button-reserve:hover,
+.button-reserve:focus {
+  background-color: #604e43;
+}
+.button-reserve:active {
+  color: #857871;
+
+  background-color: #503e33;
+}
+.hotels-rating {
+  font-size: 14px;
+  line-height: 21px;
+  color: #666666;
+
+  background-color: #f2f2f2;
+}
+.hotels-link h3 {
+  font-size: 21px;
+  line-height: 26px;
+  font-weight: 700;
+  color: #000000;
+}
+.hotels-type,
+.hotels-link {
+  font-size: 14px;
+  line-height: 21px;
+  color: #000000;
+}
+
 a {
   text-decoration: none;
 }
@@ -93,6 +231,18 @@ a {
 .advantages-city-foto,
 .advantages-canyon-foto {
   background-color: #ffffff;
+}
+.advantages-logo-house {
+  background-image: url("../img/icon-house.svg");
+  background-repeat: no-repeat;
+}
+.advantages-logo-food {
+  background-image: url("../img/icon-food.svg");
+  background-repeat: no-repeat;
+}
+.advantages-logo-souvenirs {
+  background-image: url("../img/icon-souvenirs.svg");
+  background-repeat: no-repeat;
 }
 
 .search b {
