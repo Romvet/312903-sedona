@@ -97,11 +97,12 @@ body {
   line-height: 21px;
   color: #ffffff;
 }
-.button-info {
+.button {
   font-size: 14px;
   line-height: 21px;
   color: #ffffff;
-
+}
+.button-info {
   background-color: #81b3d2;
 }
 .button-info:hover,
@@ -114,10 +115,6 @@ body {
   background-color: #5496bd;
 }
 .button-reserve {
-  font-size: 14px;
-  line-height: 21px;
-  color: #ffffff;
-
   background-color: #766357;
 }
 .button-reserve:hover,
