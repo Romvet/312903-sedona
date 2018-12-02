@@ -172,21 +172,6 @@ body {
   flex-direction: column;
   align-items: center;
 }
-.advantages {
-  width: 1200px;
-  margin-bottom: 50px;
-
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-}
-.advantages-city:first-child {
-  width: 100%;
-}
-.advantages-city-item {
-  width: 33.332%;
-}
-
 .advantages-city-foto {
   width: 800px;
   height: 256px;
@@ -199,6 +184,43 @@ body {
   width: 1200px;
   margin: auto;
   padding: 0 10px;
+}
+.advantages {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-bottom: 50px;
+
+}
+.advantages-city-list {
+  display: flex;
+  flex-direction: row;
+}
+.advantages-item-grey,
+.advantages-city-item {
+  width: 33.332%;
+}
+.search{
+  display: flex;
+  flex-direction: column;
+}
+.main-footer{
+  display: flex;
+  flex-direction: row;
+  justify-content:space-around;
+}
+.footer-social-list{
+  display: flex;
+  justify-content: center;
+}
+.footer-contact{
+  width: 240px;
+}
+.footer-social{
+  width: 400px;
+}
+.footer-copyright{
+  width: 240px;
 }
 
 a {
@@ -247,11 +269,14 @@ a {
   list-style: none;
 }
 
-.advantages-city {
+.advantages-item,
+.advantages-item-photo {
   text-align: center;
 }
 
-.advantages-city h3 {
+.advantages-item h3,
+.advantages-item-photo h3,
+.advantages-item-grey h3 {
   font-size: 21px;
   line-height: 21px;
 }
@@ -268,21 +293,28 @@ a {
   color: #333333;
 }
 
-.advantages-city {
-  background-color: #eeeeee;
-}
-
 .advantages-city-list {
   background-color: #ffffff;
 }
 
-.canyon {
+.advantages-item-blue {
+  width: 33.332%;
+  color:#ffffff;
+
   background-color: #81b3d2;
+}
+.advantages-item-blue span,.advantages-item-blue p{
+  color:#ffffff;
+}
+.advantages-item-grey {
+  text-align: center;
+
+  background-color: #eeeeee;
 }
 
 .advantages-city-foto,
 .advantages-canyon-foto {
-  background-color: #ffffff;
+  background-color: #f0c5ae;
 }
 .advantages-logo-house {
   background-image: url("../img/icon-house.svg");
