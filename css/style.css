@@ -172,14 +172,7 @@ body {
   flex-direction: column;
   align-items: center;
 }
-.advantages-city-foto {
-  width: 800px;
-  height: 256px;
-}
-.advantages-canyon-foto {
-  width: 800px;
-  height: 256px;
-}
+
 .container {
   width: 1200px;
   margin: auto;
@@ -190,7 +183,11 @@ body {
   flex-direction: row;
   flex-wrap: wrap;
   margin-bottom: 50px;
-
+}
+.advantages-item-photo {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 .advantages-city-list {
   display: flex;
@@ -200,26 +197,28 @@ body {
 .advantages-city-item {
   width: 33.332%;
 }
-.search{
+.search {
   display: flex;
   flex-direction: column;
 }
-.main-footer{
+.main-footer {
   display: flex;
   flex-direction: row;
-  justify-content:space-around;
+  justify-content: space-around;
+  align-items: center;
 }
-.footer-social-list{
+.footer-social-list {
+  width: 400px;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
 }
-.footer-contact{
+.footer-contact {
   width: 240px;
 }
-.footer-social{
+.footer-social {
   width: 400px;
 }
-.footer-copyright{
+.footer-copyright {
   width: 240px;
 }
 
@@ -297,14 +296,15 @@ a {
   background-color: #ffffff;
 }
 
-.advantages-item-blue {
+.advantages-item-text {
   width: 33.332%;
-  color:#ffffff;
+  color: #ffffff;
 
   background-color: #81b3d2;
 }
-.advantages-item-blue span,.advantages-item-blue p{
-  color:#ffffff;
+.advantages-item-text span,
+.advantages-item-text p {
+  color: #ffffff;
 }
 .advantages-item-grey {
   text-align: center;
@@ -427,7 +427,11 @@ a {
 .footer-social a {
   color: #000000;
 }
+
 .social-button svg {
+  width: 46px;
+  height: 48px;
+
   background-color: #81b3d2;
 }
 .social-button:hover svg,
