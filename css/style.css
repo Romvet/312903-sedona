@@ -21,15 +21,18 @@ body {
 .filters fieldset {
   border: none;
 }
+
 .filter legend {
   font-size: 16px;
   line-height: 21px;
   font-weight: 700;
   color: #ffffff;
 }
+
 .filter ul {
   list-style: none;
 }
+
 .filter-option {
   font-size: 14px;
   line-height: 21px;
@@ -60,6 +63,7 @@ body {
 .hotels-list {
   list-style: none;
 }
+
 .sorting-list li {
   font-size: 12px;
   line-height: 18px;
@@ -70,10 +74,12 @@ body {
 .sorting-button li {
   list-style: none;
 }
+
 .sorting-button-up {
   background-image: url("../img/icon-up-dir.svg");
   background-repeat: no-repeat;
 }
+
 .button-show {
   font-size: 14px;
   line-height: 21px;
@@ -82,50 +88,61 @@ body {
   background-color: transparent;
   border: 2px solid #ffffff;
 }
+
 .filter-scale-item {
   background-image: url("../img/filter-button.svg");
   background-repeat: no-repeat;
 }
+
 .number-max,
 .number-min {
   color: #ffffff;
   border: 2px solid #ffffff;
   background-color: transparent;
 }
+
 .price label {
   font-size: 14px;
   line-height: 21px;
   color: #ffffff;
 }
+
 .button {
   font-size: 14px;
   line-height: 21px;
   color: #ffffff;
 }
+
 .button-info {
   background-color: #81b3d2;
 }
+
 .button-info:hover,
 .button-info:focus {
   background-color: #669ec0;
 }
+
 .button-info:active {
   color: #88b6d1;
 
   background-color: #5496bd;
 }
+
 .button-reserve {
   background-color: #766357;
 }
+
 .button-reserve:hover,
 .button-reserve:focus {
   background-color: #604e43;
 }
+
 .button-reserve:active {
   color: #857871;
 
   background-color: #503e33;
 }
+
 .hotels-rating {
   font-size: 14px;
   line-height: 21px;
@@ -133,12 +150,14 @@ body {
 
   background-color: #f2f2f2;
 }
+
 .hotels-link h3 {
   font-size: 21px;
   line-height: 26px;
   font-weight: 700;
   color: #000000;
 }
+
 .hotels-type,
 .hotels-link {
   font-size: 14px;
@@ -150,6 +169,7 @@ body {
   display: flex;
   flex-direction: column;
 }
+
 .site-navigation {
   display: flex;
   flex-direction: row;
@@ -157,16 +177,21 @@ body {
 }
 
 .main-header-logo {
-  order: 2;
+  display: block;
+  position: absolute;
+  left: 50%;
 }
+
 .intro-wrapp {
   display: flex;
   flex-direction: column;
 }
+
 .greeting {
   display: flex;
   justify-content: center;
 }
+
 .intro {
   display: flex;
   flex-direction: column;
@@ -178,46 +203,56 @@ body {
   margin: auto;
   padding: 0 10px;
 }
+
 .advantages {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   margin-bottom: 50px;
 }
+
 .advantages-item-photo {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
 }
+
 .advantages-city-list {
   display: flex;
   flex-direction: row;
 }
+
 .advantages-item-grey,
 .advantages-city-item {
   width: 33.332%;
 }
+
 .search {
   display: flex;
   flex-direction: column;
 }
+
 .main-footer {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
 }
+
 .footer-social-list {
   width: 400px;
   display: flex;
   justify-content: space-around;
 }
+
 .footer-contact {
   width: 240px;
 }
+
 .footer-social {
   width: 400px;
 }
+
 .footer-copyright {
   width: 240px;
 }
@@ -249,6 +284,7 @@ a {
 .site-navigation a:active {
   color: #b2b2b2;
 }
+
 .intro-headline {
   font-size: 21px;
   line-height: 26px;
@@ -302,10 +338,12 @@ a {
 
   background-color: #81b3d2;
 }
+
 .advantages-item-text span,
 .advantages-item-text p {
   color: #ffffff;
 }
+
 .advantages-item-grey {
   text-align: center;
 
@@ -316,14 +354,17 @@ a {
 .advantages-canyon-foto {
   background-color: #f0c5ae;
 }
+
 .advantages-logo-house {
   background-image: url("../img/icon-house.svg");
   background-repeat: no-repeat;
 }
+
 .advantages-logo-food {
   background-image: url("../img/icon-food.svg");
   background-repeat: no-repeat;
 }
+
 .advantages-logo-souvenirs {
   background-image: url("../img/icon-souvenirs.svg");
   background-repeat: no-repeat;
@@ -359,6 +400,7 @@ a {
 .buttton-search:focus {
   background-color: #604e43;
 }
+
 .buttton-search:active {
   background-color: #503e33;
 }
@@ -380,6 +422,7 @@ a {
 .button-search-find:focus {
   background-color: #669ec0;
 }
+
 .button-search-find:active {
   background-color: #5496bd;
 }
@@ -434,13 +477,16 @@ a {
 
   background-color: #81b3d2;
 }
+
 .social-button:hover svg,
 .social-button:focus svg {
   background-color: #669ec0;
 }
+
 .social-button:active svg {
   background-color: #5496bd;
 }
+
 .social-button:active svg path {
   fill: #88b5d1;
 }
@@ -449,6 +495,7 @@ a {
 .logo-svg:focus path {
   fill: #81b3d2;
 }
+
 .logo-svg:active path {
   fill: #bdbbbc;
 }
