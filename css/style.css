@@ -12,10 +12,124 @@ body {
 }
 
 .filter {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
   background-color: #6a91b6;
   background-image: url("../img/filter-background.png");
   background-position: center;
   background-repeat: no-repeat;
+}
+
+.filters-services {
+  display: flex;
+  flex-direction: column;
+
+  margin-top: 25px;
+  margin-left: 50px;
+}
+
+.filters-type-housing {
+  display: flex;
+  flex-direction: column;
+
+  margin-top: 25px;
+  margin-left: 50px;
+}
+
+.sorting {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+
+  background-color: #fefefe;
+}
+
+.sorting-list {
+  width: 300px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.sorting-result {
+  margin-top: 25px;
+  margin-left: 75px;
+}
+.sorting h3 {
+  margin-left: 50px;
+}
+
+.sorting-list {
+  margin-left: 40px;
+}
+
+.hotels-list {
+  display: flex;
+  flex-direction: column;
+
+  background-color: #fefefe;
+}
+
+.hotels-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.hotels-type {
+  margin: auto;
+}
+
+.rating-wrapp {
+  width: 240px;
+  margin-left: 520px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.stars-4 {
+  display: flex;
+
+  width: 18px;
+  height: 17px;
+
+  background-image: url("..//img/star.svg");
+}
+
+.stars-3 {
+  width: 18px;
+  height: 17px;
+
+  background-image: url("..//img/star.svg");
+  background-repeat: no-repeat;
+}
+
+.stars-2 {
+  width: 18px;
+  height: 17px;
+
+  background-image: url("..//img/star.svg");
+  background-repeat: no-repeat;
+}
+
+.hotels-rating {
+  width: 110px;
+  padding: 5px 10px;
+
+  text-align: center;
+}
+
+.hotels-photo {
+  width: 135px;
+  height: 90px;
 }
 
 .filters fieldset {
@@ -75,12 +189,38 @@ body {
   list-style: none;
 }
 
+.sorting-button {
+  display: flex;
+  margin-left: auto;
+  margin-right: 73px;
+}
+
 .sorting-button-up {
+  display: flex;
+
+  width: 11px;
+  height: 10px;
+
   background-image: url("../img/icon-up-dir.svg");
   background-repeat: no-repeat;
 }
 
+.sorting-button-down {
+  display: flex;
+
+  width: 11px;
+  height: 10px;
+
+  background-image: url("../img/icon-down-dir.svg");
+  background-repeat: no-repeat;
+}
+
 .button-show {
+  align-self: flex-end;
+  margin-bottom: 42px;
+  margin-right: 168px;
+  padding: 8px 32px;
+
   font-size: 14px;
   line-height: 21px;
   color: #ffffff;
@@ -114,6 +254,10 @@ body {
 }
 
 .button-info {
+  padding: 5px 15px;
+  margin: auto;
+  margin-left: 30px;
+
   background-color: #81b3d2;
 }
 
@@ -129,6 +273,9 @@ body {
 }
 
 .button-reserve {
+  padding: 5px 15px;
+  margin: auto;
+  margin-left: 5px;
   background-color: #766357;
 }
 
@@ -248,11 +395,16 @@ body {
   align-items: center;
 }
 
-.main-footer {
+.main-footer,
+.main-footer-calalog {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
+}
+
+.main-footer-calalog {
+  background-color: #fefefe;
 }
 
 .footer-social-list {
@@ -522,6 +674,11 @@ a {
 }
 
 .social-button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
   width: 46px;
   height: 48px;
 
