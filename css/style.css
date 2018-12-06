@@ -103,7 +103,6 @@ body {
   height: 17px;
 
   background-image: url("..//img/star.svg");
-
 }
 
 .stars-3 {
@@ -330,7 +329,8 @@ body {
   justify-content: space-around;
 }
 
-.main-header-logo {
+.main-header-logo,
+.main-header-logo-catalog {
   margin-top: -1px;
 
   display: block;
