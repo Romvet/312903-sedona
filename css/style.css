@@ -618,17 +618,18 @@ a {
 }
 
 .greeting-welcome {
-  position: relative;
+
   padding-top: 77px;
 }
 
 .greeting-mask {
   display: block;
   position: absolute;
-  top: 53.5%;
+  top:62.4%;
 }
 
 .intro-wrapp {
+  position: relative;
   margin: 0;
 
   display: flex;
