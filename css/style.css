@@ -33,6 +33,11 @@ a {
 }
 
 /* Стили для фильтра на странице с отелями*/
+.filters{
+margin: 0;
+padding: 0;
+}
+
 .filter {
 
   margin: 0;
@@ -45,7 +50,7 @@ a {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: flex-start;
-  align-items: center;
+  align-items: stretch;
 
   background-color: #6a91b6;
   background-image: url("../img/filter-background.png");
@@ -71,7 +76,6 @@ a {
 
 .filters-type-housing {
   margin: 0;
-
   padding: 0;
   width: 240px;
 
@@ -160,12 +164,6 @@ a {
   line-height: 21px;
   font-weight: 700;
   color: #ffffff;
-}
-
-.filter ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
 }
 
 /* Конец Стили для фильтра на странице с отелями*/
@@ -397,10 +395,18 @@ padding: 0;
   fill: #d0d0d0;
 }
 
+.sorting-button-up:hover path,
+.sorting-button-down:hover path,
+.sorting-button-up:focus path,
+.sorting-button-down:focus path {
+  fill: #2d292a;
+}
+
 .sorting-button-up:active path,
 .sorting-button-down:active path {
   fill: #87b6d4;
 }
+
 /* Конец Стили для сортировки на странице с отелями*/
 
 /* Стили для блока с отелями на странице с отелями*/
@@ -432,6 +438,10 @@ padding: 0;
 
   border-top: 1px solid #f9f9f9;
  }
+
+.hotels-item:last-child{
+   border-bottom:1px solid #f9f9f9;
+}
 
 .hotels-info{
   box-sizing: border-box;
@@ -1145,8 +1155,11 @@ padding-left:px;
 }
 
 .modal-search input[type="text"] {
-  font: inherit;
+  margin: 0;
+  padding: 0;
 
+
+  font: inherit;
   font-size: 14px;
   line-height: 26px;
   font-weight: 700;
@@ -1154,6 +1167,11 @@ padding-left:px;
   text-transform: uppercase;
 
   background-color: #f2f2f2;
+}
+
+.search-item input[type="text"]{
+  padding-top: 6px;
+  padding-bottom: 6px;
 }
 
 .number-people,
