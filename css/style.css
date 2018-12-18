@@ -377,7 +377,7 @@ fieldset {
 
 .sorting h3 {
   margin: 0;
-  margin-left: 50px;
+  margin-left: 48px;
   padding: 0;
   padding-top: 4px;
   font-size: 12px;
@@ -414,7 +414,7 @@ fieldset {
 }
 
 .sorting-button-up {
-  margin-left: 23px;
+  margin-left: 19px;
   display: flex;
 
   width: 11px;
@@ -422,7 +422,7 @@ fieldset {
 }
 
 .sorting-button-down {
-  margin-left: 12px;
+  margin-left: 10px;
   display: flex;
 
   width: 11px;
@@ -705,7 +705,7 @@ fieldset {
   padding: 0;
   padding-top: 14px;
   padding-bottom: 15px;
-  width: 20%;
+  width:20%;
 }
 
 .site-navigation li:first-child {
@@ -939,6 +939,11 @@ fieldset {
   margin-top: 14px;
 }
 
+.item-text-citi{
+  padding-left: 46px;
+  padding-right: 46px;
+}
+
 .advantages-item-text span {
   margin-top: 2px;
 }
@@ -966,6 +971,8 @@ fieldset {
 
 .advantages-item-grey h3 {
   margin-top: 25px;
+  padding-left:60px;
+  padding-right:60px;
 }
 
 .advantages-item-grey span {
@@ -973,7 +980,7 @@ fieldset {
 }
 
 .advantages-item-grey p {
-  margin-top: 22px;
+  margin-top: 21px;
 }
 
 .advantages-canyon-foto {
@@ -983,6 +990,11 @@ fieldset {
 .advantages-item-grey,
 .advantages-city-item {
   width: 33.332%;
+}
+
+.item-grey-text{
+  padding-right:10px;
+   padding-left:10px;
 }
 
 .advantages,
