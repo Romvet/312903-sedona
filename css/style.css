@@ -920,7 +920,7 @@ fieldset {
 
 .advantages-item-text {
   box-sizing: border-box;
-
+  margin: 0;
   padding-right: 46px;
   padding-bottom: 13px;
   padding-left: 46px;
@@ -1215,17 +1215,21 @@ fieldset {
 
 .number-people input[type="text"],
 .number-child input[type="text"] {
+  box-sizing: border-box;
+  min-height: 38px;
   text-align: center;
+
 }
 
 .search-item input[type="text"] {
   box-sizing: border-box;
+  min-height: 38px;
   margin: 0;
   padding: 0;
   width: 346px;
-  padding-top: 6px;
-  padding-bottom: 6px;
-  padding-left: 10px;
+   
+   padding-left: 12px;
+  
 }
 
 .number-people,
