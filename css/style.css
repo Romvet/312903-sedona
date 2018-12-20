@@ -9,7 +9,7 @@ body {
   text-transform: uppercase;
 
   background-color: #f2f2f2;
-}
+  }
 
 .button {
   font-size: 14px;
@@ -21,6 +21,7 @@ body {
   width: 1200px;
   margin: auto;
   padding: 0;
+  box-shadow: 0 0 25px -10px rgba(0, 0, 0, 1);
 }
 
 img {
@@ -43,6 +44,7 @@ a {
   padding-top: 25px;
   padding-bottom: 9px;
   padding-left: 72px;
+  padding-right: 72px;
 
   display: flex;
   flex-direction: row;
@@ -71,7 +73,7 @@ a {
 .filters-type-housing {
   margin: 0;
   margin-left: 15px;
-  margin-right: 243px;
+  margin-right: 242px;
   padding: 0;
   width: 240px;
 }
@@ -93,52 +95,34 @@ a {
   cursor: pointer;
 }
 
-.filter-option label::after {
+.filter-option ::after {
   content: "";
   position: absolute;
+
   top: 0;
   left: 0;
   display: block;
-  width: 23px;
+
+  width: 26px;
   height: 23px;
-  background-image: url("../img/checkbox-off.svg");
+
   background-repeat: no-repeat;
+}
+
+.filter-option label::after {
+  background-image: url("../img/checkbox-off.svg");
 }
 
 .filter-input:checked + label::after {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  display: block;
-  width: 26px;
-  height: 23px;
   background-image: url("../img/checkbox-on.svg");
-  background-repeat: no-repeat;
 }
 
 .filter-input:disabled + label::after {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  display: block;
-  width: 23px;
-  height: 23px;
   background-image: url("../img/checkbox-off-disabled.svg");
-  background-repeat: no-repeat;
 }
 
 .filter-input:checked:disabled + label::after {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  display: block;
-  width: 26px;
-  height: 23px;
   background-image: url("../img/checkbox-on-disabled.svg");
-  background-repeat: no-repeat;
 }
 
 fieldset {
@@ -168,11 +152,11 @@ fieldset {
 
 /*Стили для сложного фильтра */
 .filter-range {
-  width: 320px;
+  width: 315px;
   margin: 0;
 
   padding: 0;
-  width: 327px;
+  width: 315px;
 
   color: #ffffff;
   text-transform: uppercase;
@@ -182,7 +166,7 @@ fieldset {
   margin: 0;
   padding: 0;
 
-  font-weight: 600;
+  font-weight: 700;
   font-size: 16px;
   line-height: 21px;
 }
@@ -244,7 +228,7 @@ fieldset {
   border: none;
 }
 .range-controls .bar {
-  width: 80%;
+  width: 83%;
   height: 2px;
 
   background: #ffffff;
@@ -256,7 +240,7 @@ fieldset {
 }
 
 .range-controls .scale {
-  width: 97%;
+  width: 100%;
   height: 2px;
 
   background: rgba(255, 255, 255, 0.3);
@@ -273,12 +257,21 @@ fieldset {
 
   cursor: pointer;
 }
+
+.range-toggle:hover,
+.range-toggle:focus {
+  width: 22px;
+  height: 24px;
+
+  background-size: 100% 100%;
+}
+
 .range-toggle-min {
-  left: 0;
+  left: 0.5%;
 }
 
 .range-toggle-max {
-  left: 77%;
+  left: 80%;
 }
 
 .button-range {
@@ -303,6 +296,12 @@ fieldset {
   border: 2px solid #ffffff;
   border-radius: 2px;
   cursor: pointer;
+}
+
+.button-transparent:hover,
+.button-transparent:focus {
+  color: #000000;
+  background-color: #ffffff;
 }
 
 /* Конец Стили для сложного фильтра */
@@ -470,7 +469,6 @@ fieldset {
   box-sizing: border-box;
   width: 100%;
   margin: 0;
-  margin-bottom: px;
   padding: 0;
   padding-top: 30px;
   padding-bottom: 24px;
@@ -646,6 +644,10 @@ fieldset {
   background-repeat: space no-repeat;
 }
 
+.stars-5 {
+  width: 106px;
+}
+
 .stars-4 {
   width: 89px;
 }
@@ -656,6 +658,10 @@ fieldset {
 
 .stars-2 {
   width: 41px;
+}
+
+.stars-1 {
+  width: 18px;
 }
 
 /* Конец Стили для блока с отелями на странице с отелями*/
@@ -705,7 +711,7 @@ fieldset {
   padding: 0;
   padding-top: 14px;
   padding-bottom: 15px;
-  width:20%;
+  width: 20%;
 }
 
 .site-navigation li:first-child {
@@ -716,10 +722,10 @@ fieldset {
   margin-right: 6%;
 }
 
-.site-navigation li:nth-child(2),
-.site-navigation li:nth-child(6),
-.site-navigation li:nth-child(10) {
-  margin-right: 94px;
+.site-navigation li:nth-child(3),
+.site-navigation li:nth-child(7),
+.site-navigation li:nth-child(11) {
+  margin-left: auto;
 }
 
 .navigation-info,
@@ -939,7 +945,7 @@ fieldset {
   margin-top: 14px;
 }
 
-.item-text-citi{
+.item-text-citi {
   padding-left: 46px;
   padding-right: 46px;
 }
@@ -971,8 +977,8 @@ fieldset {
 
 .advantages-item-grey h3 {
   margin-top: 25px;
-  padding-left:60px;
-  padding-right:60px;
+  padding-left: 60px;
+  padding-right: 60px;
 }
 
 .advantages-item-grey span {
@@ -992,9 +998,9 @@ fieldset {
   width: 33.332%;
 }
 
-.item-grey-text{
-  padding-right:10px;
-   padding-left:10px;
+.item-grey-text {
+  padding-right: 10px;
+  padding-left: 10px;
 }
 
 .advantages,
@@ -1064,7 +1070,7 @@ fieldset {
 /* Конец Стили для основного содержания главной страницы*/
 
 /* Стили для кнопки поиска на главной странице*/
-.buttton-search {
+.button-search {
   position: relative;
   width: 568px;
   height: 86px;
@@ -1218,7 +1224,6 @@ fieldset {
   box-sizing: border-box;
   min-height: 38px;
   text-align: center;
-
 }
 
 .search-item input[type="text"] {
@@ -1227,9 +1232,8 @@ fieldset {
   margin: 0;
   padding: 0;
   width: 346px;
-   
-   padding-left: 12px;
-  
+
+  padding-left: 12px;
 }
 
 .number-people,
@@ -1279,7 +1283,7 @@ fieldset {
 }
 
 .check-out input[type="text"] {
-  margin-bottom: 28px;
+  margin-bottom: 30px;
 }
 
 .number-people label {
@@ -1329,10 +1333,6 @@ fieldset {
 
   width: 21px;
   height: 22px;
-}
-
-.number-child .child-less {
-  margin-left: 0px;
 }
 
 .number-people input,
@@ -1451,7 +1451,7 @@ fieldset {
   margin: 0;
   margin-top: -127px;
   padding: 0;
-  padding-top: 34px;
+  padding-top: 36px;
   padding-bottom: 36px;
 
   display: flex;
