@@ -9,7 +9,7 @@ body {
   text-transform: uppercase;
 
   background-color: #f2f2f2;
-  }
+}
 
 .button {
   font-size: 14px;
@@ -22,7 +22,7 @@ body {
   margin: auto;
   padding: 0;
   -webkit-box-shadow: 0 0 25px -10px rgba(0, 0, 0, 1);
-          box-shadow: 0 0 25px -10px rgba(0, 0, 0, 1);
+  box-shadow: 0 0 25px -10px rgba(0, 0, 0, 1);
 }
 
 img {
@@ -54,16 +54,16 @@ a {
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
   -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
   -webkit-box-align: stretch;
-      -ms-flex-align: stretch;
-          align-items: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
 
   background-color: #6a91b6;
   background-image: url("../img/filter-background.png");
@@ -120,6 +120,12 @@ a {
   height: 23px;
 
   background-repeat: no-repeat;
+}
+
+.filter-option:hover ::after,
+.filter-option:focus ::after {
+  outline: 1px solid #c9cbcc;
+  outline-style: ridge;
 }
 
 .filter-option label::after {
@@ -188,9 +194,7 @@ fieldset {
   width: 315px;
   height: 36px;
 
- 
   margin-bottom: 20px;
-  
 
   position: relative;
 
@@ -211,8 +215,8 @@ fieldset {
 
   background: #ffffff;
   -webkit-transform: translate(-50%, -50%);
-      -ms-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
 
 .price-controls label {
@@ -333,14 +337,14 @@ fieldset {
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
   -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 
   background-color: #fefefe;
 }
@@ -361,13 +365,13 @@ fieldset {
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
   -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
 }
 
 .sorting-item {
@@ -447,13 +451,13 @@ fieldset {
 
   display: flex;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
 .sorting-button-up {
@@ -512,15 +516,15 @@ fieldset {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
 
   background-color: #fefefe;
 }
 
 .hotels-item {
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   width: 100%;
   margin: 0;
   padding: 0;
@@ -534,14 +538,14 @@ fieldset {
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
   -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
   -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
 
   border-top: 1px solid #f9f9f9;
 }
@@ -552,7 +556,7 @@ fieldset {
 
 .hotels-info {
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   width: 333px;
 
   margin: 0;
@@ -567,16 +571,16 @@ fieldset {
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
   -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .hotels-info h3 {
@@ -608,14 +612,14 @@ fieldset {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
   -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
+  -ms-flex-align: end;
+  align-items: flex-end;
 }
 
 .hotels-photo {
@@ -638,7 +642,7 @@ fieldset {
 
 .button-info {
   margin: 0;
-  margin-top: 12px;
+  margin-top: 7px;
   padding: 3px 17px;
   display: inline-block;
   vertical-align: middle;
@@ -648,7 +652,7 @@ fieldset {
 
 .button-reserve {
   margin: 0;
-  margin-top: 11px;
+  margin-top: 7px;
   padding: 3px 17px;
   display: inline-block;
   vertical-align: middle;
@@ -697,7 +701,6 @@ fieldset {
   padding: 0;
 }
 
-.hotels-type,
 .hotels-link {
   padding: 0;
   margin: 0;
@@ -707,8 +710,19 @@ fieldset {
   color: #000000;
 }
 
-.hotels-price {
+.hotels-type {
+  text-align: left;
+  width: 110px;
   margin: 0;
+  margin-right: 6px;
+  margin-bottom: 5px;
+  padding: 0;
+}
+
+.hotels-price {
+  width: 110px;
+  margin: 0;
+  margin-bottom: 5px;
   padding: 0;
 }
 
@@ -769,8 +783,8 @@ fieldset {
   position: absolute;
   left: 50%;
   -webkit-transform: translateX(-50%);
-      -ms-transform: translateX(-50%);
-          transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
 }
 
 .main-navigation {
@@ -779,8 +793,8 @@ fieldset {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
 }
 
 .site-navigation {
@@ -794,16 +808,16 @@ fieldset {
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
   -webkit-box-align: stretch;
-      -ms-flex-align: stretch;
-          align-items: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
   -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
 
   font-weight: 700;
   color: #000000;
@@ -875,14 +889,14 @@ fieldset {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 .greeting {
   margin: 0;
@@ -898,11 +912,11 @@ fieldset {
 
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
 
   background-color: #ddebf4;
   background-image: url("../img/background-photo.jpg");
@@ -932,7 +946,6 @@ fieldset {
   width: 1200px;
   min-height: 216px;
 
-
   display: -webkit-box;
 
   display: -ms-flexbox;
@@ -940,16 +953,16 @@ fieldset {
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 
   background-color: #ffffff;
 }
@@ -959,7 +972,7 @@ fieldset {
   padding: 0;
   width: 576px;
   text-align: center;
-/*
+  /*
   display: -webkit-box;
 
   display: -ms-flexbox;
@@ -976,7 +989,7 @@ fieldset {
 
 .intro-headline {
   margin: 0;
-  margin-top:7px;
+  margin-top: 7px;
   padding: 0;
   padding: 13px;
   text-align: center;
@@ -1003,13 +1016,13 @@ fieldset {
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
 .advantages-item-photo {
@@ -1020,15 +1033,15 @@ fieldset {
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 
 .advantages-city-list {
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
   padding-top: 57px;
@@ -1041,26 +1054,26 @@ fieldset {
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
   -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
   -webkit-box-align: stretch;
-      -ms-flex-align: stretch;
-          align-items: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
 
   background-color: #ffffff;
 }
 
 .advantages-city-item {
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   margin: 0;
   margin-top: 0px;
-/*
+  /*
   padding: 0;
 
   padding-right: 50px;
@@ -1091,15 +1104,14 @@ fieldset {
 }
 .logo-house {
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   padding-top: 3px;
 }
 
 .logo-food {
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   padding-top: 4px;
-
 }
 
 .advantages-city-item p {
@@ -1123,9 +1135,9 @@ fieldset {
 
 .advantages-item-text {
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   margin: 0;
-  padding-top:32px;
+  padding-top: 32px;
   padding-right: 46px;
   padding-bottom: 13px;
   padding-left: 46px;
@@ -1145,16 +1157,16 @@ fieldset {
 }
 
 .advantages-item-text p {
-  margin-top:18px;
+  margin-top: 18px;
 }
 .advantages-item-grey {
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   background-color: #eeeeee;
 }
 
 .advantages-item-grey h3 {
-  margin-top:47px;
+  margin-top: 47px;
   padding-left: 120px;
   padding-right: 120px;
   text-align: center;
@@ -1164,20 +1176,19 @@ fieldset {
   padding-right: 173px;
   padding-left: 173px;
   text-align: center;
-
 }
 
 .advantages-item-grey p {
-  margin-top:18px;
-  padding-right:62px;
+  margin-top: 18px;
+  padding-right: 62px;
   padding-left: 62px;
   text-align: center;
 }
 
 .advantages-canyon-foto {
   -webkit-box-ordinal-group: 0;
-      -ms-flex-order: -1;
-          order: -1;
+  -ms-flex-order: -1;
+  order: -1;
 }
 
 .advantages-item-grey,
@@ -1185,9 +1196,9 @@ fieldset {
   width: 33.332%;
 }
 
- li .item-grey-text {
-  padding-right:72px;
-  padding-left:72px;
+li .item-grey-text {
+  padding-right: 72px;
+  padding-left: 72px;
 }
 
 .advantages,
@@ -1223,11 +1234,14 @@ fieldset {
 }
 
 .logo-house::before {
-    content: "";
+  content: "";
   display: block;
-   width: 75px;
+  position: relative;
+  top: 0;
+  left: 41%;
+  width: 75px;
   height: 72px;
-  
+
   background-image: url("../img/icon-house.svg");
   background-repeat: no-repeat;
 }
@@ -1235,6 +1249,9 @@ fieldset {
 .logo-food::before {
   content: "";
   display: block;
+  position: relative;
+  top: 0;
+  left: 41%;
   width: 74px;
   height: 70px;
 
@@ -1245,7 +1262,10 @@ fieldset {
 .logo-souvenirs::before {
   content: "";
   display: block;
-   width: 64px;
+  position: relative;
+  top: 0;
+  left: 42%;
+  width: 64px;
   height: 76px;
 
   background-image: url("../img/icon-souvenirs.svg");
@@ -1273,12 +1293,12 @@ fieldset {
   background-color: #766357;
 }
 
-.buttton-search:hover,
-.buttton-search:focus {
+.button-search:hover,
+.button-search:focus {
   background-color: #604e43;
 }
 
-.buttton-search:active {
+.button-search:active {
   color: #857871;
   background-color: #503e33;
 }
@@ -1327,14 +1347,14 @@ fieldset {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 
   background-color: #ffffff;
 }
@@ -1345,24 +1365,25 @@ fieldset {
   position: absolute;
   left: 50%;
   -webkit-transform: translateX(-50%);
-      -ms-transform: translateX(-50%);
-          transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
 
   display: -webkit-box;
 
   display: -ms-flexbox;
 
   display: flex;
+
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 
   background-color: #ffffff;
 }
@@ -1392,8 +1413,9 @@ fieldset {
 
 /*  Сплывающая форма  */
 .form-search {
+  display: none;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   margin: 0;
   padding-top: 55px;
 
@@ -1408,16 +1430,16 @@ fieldset {
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
   -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .modal-search input[type="text"] {
@@ -1444,14 +1466,14 @@ fieldset {
 .number-people input[type="text"],
 .number-child input[type="text"] {
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   min-height: 38px;
   text-align: center;
 }
 
 .search-item input[type="text"] {
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   min-height: 38px;
   margin: 0;
   padding: 0;
@@ -1460,7 +1482,7 @@ fieldset {
   padding-left: 12px;
 }
 input::-ms-clear {
-   display: none;
+  display: none;
 }
 
 .number-people,
@@ -1469,11 +1491,11 @@ input::-ms-clear {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .modal-search input:hover {
@@ -1575,7 +1597,6 @@ input::-ms-clear {
   border: none;
 }
 
-
 .button.people-less,
 .button.child-less,
 .button.people-more,
@@ -1593,7 +1614,7 @@ input::-ms-clear {
   display: block;
   position: absolute;
   left: 35%;
-  bottom:47%;
+  bottom: 47%;
 
   width: 12px;
   height: 3px;
@@ -1619,7 +1640,7 @@ input::-ms-clear {
   display: block;
   position: absolute;
   left: 36%;
-  top:45%;
+  top: 45%;
 
   width: 11px;
   height: 3px;
@@ -1633,13 +1654,13 @@ input::-ms-clear {
   display: block;
   position: absolute;
   left: 35%;
-  top:45%;
+  top: 45%;
 
   width: 11px;
   height: 3px;
   -webkit-transform: rotate(90deg);
-      -ms-transform: rotate(90deg);
-          transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
 
   background-color: #b7b7b7;
 }
@@ -1696,10 +1717,10 @@ input::-ms-clear {
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
 
   background-color: rgba(249, 251, 246, 0.9);
 }
@@ -1719,10 +1740,10 @@ input::-ms-clear {
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
 
   background-color: #fefefe;
 }
@@ -1744,13 +1765,13 @@ input::-ms-clear {
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
 .footer-item {
@@ -1770,16 +1791,16 @@ input::-ms-clear {
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
 
   font-size: 21px;
   line-height: 26px;
@@ -1800,16 +1821,16 @@ input::-ms-clear {
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .footer-copyright b {
@@ -1835,14 +1856,14 @@ input::-ms-clear {
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 
   width: 46px;
   height: 48px;
