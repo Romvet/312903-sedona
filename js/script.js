@@ -8,11 +8,14 @@ var checkout=modalform.querySelector("[name=date-check-out]");
 var numberpeople=modalform.querySelector("[name=number-people]");
 var numberchild=modalform.querySelector("[name=number-child]");
 
+ modalform.classList.add("modal-show");
+
 clickbutton.addEventListener("click", function (evt) {
   evt.preventDefault();
-  modalform.classList.toggle("modal-show");
-  checkin.focus();
+   modalform.classList.toggle("modal-show");
+    checkin.focus();
    })
+
 /*
   form.addEventListener("submit", function (evt) {
     if(!checkin.value || !checkout.value || !numberpeople.value || !numberchild.value){
