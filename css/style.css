@@ -595,7 +595,7 @@ fieldset {
   font-size: 21px;
   line-height: 26px;
   font-weight: 700;
-  
+
 }
 
 .rating-wrapp {
@@ -692,7 +692,7 @@ fieldset {
 .hotels-link {
   margin: 0;
   padding: 0;
-  
+
   color: #000000;
 }
 
@@ -1388,42 +1388,19 @@ li .item-grey-text {
   background-color: #ffffff;
 }
 
-@-webkit-keyframes flip {
-  0% {
-    -webkit-transform: translateX(0%);
-    transform: translateX(0%);
-  }
-}
-
 @keyframes flip {
-  0% {
-    -webkit-transform: translateX(0%);
-    transform: translateX(0%);
-  }
+  0%  { -webkit-transform: scaleY(0) translateY(-400px); transform: scaleY(0) translateY(-400px); }
+  25% { -webkit-transform: scaleY(0) translateY(-300px); transform: scaleY(0) translateY(-300px); }
+  50% { -webkit-transform: scaleY(0) translateY(-200px); transform: scaleY(0) translateY(-200px); }
+  75% { -webkit-transform: scaleY(0) translateY(-150px); transform: scaleY(0) translateY(-150px); }
+  100% { -webkit-transform: scaleY(1) translateY(100%); transform: scaleY(1) translateY(100%); }
 }
 
 @keyframes shake {
-  0%,
-  100% {
-    transform: translateX(0);
-  }
-
-  10%,
-  30%,
-  50%,
-  70%,
-  90% {
-    transform: translateX(-10px);
-  }
-
-  20%,
-  40%,
-  60%,
-  80% {
-    transform: translateX(10px);
-  }
+  0%, 100% { -webkit-transform: translateX(); transform: translateX(); }
+  10%, 30%, 50%, 70%, 90% { -webkit-transform: translateX(-10px); transform: translateX(-10px); }
+  20%, 40%, 60%, 80% { -webkit-transform: translateX(10px); transform: translateX(10px); }
 }
-
 
 .modal-show {
   display: -webkit-box;
@@ -1433,7 +1410,7 @@ li .item-grey-text {
   -webkit-animation-name: flip;
   animation-name: flip;
   -webkit-animation-duration: 1s;
-  animation-duration: 1s;
+  animation-duration: 0.5s;
 }
 
 .modal-error{
