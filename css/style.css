@@ -1364,6 +1364,8 @@ li .item-grey-text {
   margin: 0;
   position: absolute;
   left: 50%;
+
+  z-index: 1;
   -webkit-transform: translateX(-50%);
   -ms-transform: translateX(-50%);
   transform: translateX(-50%);
@@ -1402,11 +1404,11 @@ li .item-grey-text {
   20%, 40%, 60%, 80% { -webkit-transform: translateX(10px); transform: translateX(10px); }
 }
 
-.modal-show {
-  display: -webkit-box;
-
-  display: -ms-flexbox;
+.modal-hid{
   display: none;
+}
+
+.modal-show {
   -webkit-animation-name: flip;
   animation-name: flip;
   -webkit-animation-duration: 1s;
@@ -1728,8 +1730,14 @@ input::-ms-clear {
 /* Конец Стили для формы поиска на главной странице*/
 
 /* Стили для карты на главной*/
+
 .map {
   background-color: #f2f1ef;
+}
+
+.iframe-map{
+  position: absolute;
+
 }
 
 .map p {
