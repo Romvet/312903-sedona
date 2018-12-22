@@ -826,12 +826,11 @@ fieldset {
 
 .site-navigation li {
   margin: 0;
-
   padding: 0;
   padding-top: 14px;
   padding-bottom: 15px;
   width: 20%;
-}
+    }
 
 .site-navigation li:first-child {
   margin-left: 6%;
@@ -1401,6 +1400,29 @@ li .item-grey-text {
   }
 }
 
+@keyframes shake {
+  0%,
+  100% {
+    transform: translateX(0);
+  }
+
+  10%,
+  30%,
+  50%,
+  70%,
+  90% {
+    transform: translateX(-10px);
+  }
+
+  20%,
+  40%,
+  60%,
+  80% {
+    transform: translateX(10px);
+  }
+}
+
+
 .modal-show {
   display: -webkit-box;
 
@@ -1411,6 +1433,12 @@ li .item-grey-text {
   -webkit-animation-duration: 1s;
   animation-duration: 1s;
 }
+
+.modal-error{
+
+  animation-name:shake;
+  animation-duration: 0.6s;
+ }
 
 .search-title {
   margin-top: 51px;
