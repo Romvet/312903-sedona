@@ -591,11 +591,11 @@ fieldset {
   margin-right: 6px;
 }
 
-.hotels-link h3 {
+.hotels-link h3{
   font-size: 21px;
   line-height: 26px;
   font-weight: 700;
-  color: #000000;
+  
 }
 
 .rating-wrapp {
@@ -692,6 +692,8 @@ fieldset {
 .hotels-link {
   margin: 0;
   padding: 0;
+  
+  color: #000000;
 }
 
 .hotels-link h3 {
@@ -725,12 +727,12 @@ fieldset {
   padding: 0;
 }
 
-.hotels-link h3:hover,
-.hotels-link h3:focus {
+.hotels-link:hover,
+.hotels-link:focus {
   color: #aacce1;
 }
 
-.hotels-link h3:active {
+.hotels-link:active {
   color: #c5c5c5;
 }
 
@@ -1593,10 +1595,12 @@ input::-ms-clear {
 
 .check-in input[type="text"] {
   margin-bottom: 30px;
+  padding-right:30px;
 }
 
 .check-out input[type="text"] {
   margin-bottom: 30px;
+  padding-right: 30px;
 }
 
 .number-people label {
