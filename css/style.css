@@ -1362,14 +1362,10 @@ li .item-grey-text {
 .modal-search {
   padding: 0;
   margin: 0;
+  margin-left: 315px;
   position: absolute;
-  left: 50%;
 
   z-index: 1;
-  -webkit-transform: translateX(-50%);
-  -ms-transform: translateX(-50%);
-  transform: translateX(-50%);
-
   display: -webkit-box;
 
   display: -ms-flexbox;
@@ -1390,32 +1386,13 @@ li .item-grey-text {
   background-color: #ffffff;
 }
 
-@-webkit-keyframes flip {
-  0%  { -webkit-transform: scaleY(0) translateY(-400px); transform: scaleY(0) translateY(-400px); }
-  25% { -webkit-transform: scaleY(0) translateY(-300px); transform: scaleY(0) translateY(-300px); }
-  50% { -webkit-transform: scaleY(0) translateY(-200px); transform: scaleY(0) translateY(-200px); }
-  75% { -webkit-transform: scaleY(0) translateY(-150px); transform: scaleY(0) translateY(-150px); }
-  100% { -webkit-transform: scaleY(1) translateY(100%); transform: scaleY(1) translateY(100%); }
-}
-
 @keyframes flip {
-  0%  { -webkit-transform: scaleY(0) translateY(-400px); transform: scaleY(0) translateY(-400px); }
-  25% { -webkit-transform: scaleY(0) translateY(-300px); transform: scaleY(0) translateY(-300px); }
-  50% { -webkit-transform: scaleY(0) translateY(-200px); transform: scaleY(0) translateY(-200px); }
-  75% { -webkit-transform: scaleY(0) translateY(-150px); transform: scaleY(0) translateY(-150px); }
-  100% { -webkit-transform: scaleY(1) translateY(100%); transform: scaleY(1) translateY(100%); }
-}
-
-@-webkit-keyframes shake {
-  0%, 100% { -webkit-transform: translateX(); transform: translateX(); }
-  10%, 30%, 50%, 70%, 90% { -webkit-transform: translateX(-10px); transform: translateX(-10px); }
-  20%, 40%, 60%, 80% { -webkit-transform: translateX(10px); transform: translateX(10px); }
-}
-
-@keyframes shake {
-  0%, 100% { -webkit-transform: translateX(); transform: translateX(); }
-  10%, 30%, 50%, 70%, 90% { -webkit-transform: translateX(-10px); transform: translateX(-10px); }
-  20%, 40%, 60%, 80% { -webkit-transform: translateX(10px); transform: translateX(10px); }
+  from {
+    transform: translateY(-20%);
+  }
+  to {
+    transform: translateY(0);
+  }
 }
 
 .modal-hid{
@@ -1471,6 +1448,7 @@ li .item-grey-text {
 
   padding-bottom: 55px;
   padding-left: 55px;
+  padding-right: 55px;
   width: 568px;
 
   display: -webkit-box;
@@ -1527,7 +1505,7 @@ li .item-grey-text {
   min-height: 38px;
   margin: 0;
   padding: 0;
-  width: 346px;
+  width: 344px;
 
   padding-left: 12px;
 }
@@ -1582,11 +1560,13 @@ input::-ms-clear {
 }
 
 .check-in label {
-  margin-right: 20px;
+  padding-left: 3px;
+  margin-right: 18px;
 }
 
 .check-out label {
-  margin-right: 16px;
+  padding-left: 3px;
+  margin-right: 15px;
 }
 
 .check-in input[type="text"] {
