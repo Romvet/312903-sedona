@@ -1162,6 +1162,7 @@ fieldset {
   margin-top: 18px;
 }
 .advantages-item-grey {
+  position: relative;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   background-color: #eeeeee;
@@ -1280,7 +1281,7 @@ li .item-grey-text {
 
   width: 568px;
   height: 86px;
-
+  z-index: 2;
   font: inherit;
   font-size: 21px;
   line-height: 26px;
@@ -1362,6 +1363,12 @@ li .item-grey-text {
   background-color: #ffffff;
 }
 
+.search::after{
+background-color: #ffffff;
+position: absolute;
+z-index: 5;
+}
+
 .modal-search {
   padding: 0;
   margin: 0;
@@ -1422,9 +1429,11 @@ li .item-grey-text {
 
 .search-title {
   margin-top: 51px;
+  z-index: 3
 }
 
 .search-text {
+  z-index: 4;
   margin: 0;
   margin-top: 9px;
   margin-bottom: 47px;
