@@ -1281,7 +1281,7 @@ li .item-grey-text {
 
   width: 568px;
   height: 86px;
-  z-index: 2;
+  z-index:2;
   font: inherit;
   font-size: 21px;
   line-height: 26px;
@@ -1363,9 +1363,14 @@ li .item-grey-text {
   background-color: #ffffff;
 }
 
-.search::after{
+.search::before{
 background-color: #ffffff;
 position: absolute;
+
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
 z-index: 5;
 }
 
@@ -1377,7 +1382,7 @@ z-index: 5;
   top:100%;
   left:0%;
 
-  z-index: 1;
+  z-index:1;
   display: -webkit-box;
 
   display: -ms-flexbox;
@@ -1429,11 +1434,11 @@ z-index: 5;
 
 .search-title {
   margin-top: 51px;
-  z-index: 3
+  z-index:3;
 }
 
 .search-text {
-  z-index: 4;
+  z-index:4;
   margin: 0;
   margin-top: 9px;
   margin-bottom: 47px;
