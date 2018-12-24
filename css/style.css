@@ -591,11 +591,10 @@ fieldset {
   margin-right: 6px;
 }
 
-.hotels-link h3{
+.hotels-link h3 {
   font-size: 21px;
   line-height: 26px;
   font-weight: 700;
-
 }
 
 .rating-wrapp {
@@ -834,7 +833,7 @@ fieldset {
   padding-top: 14px;
   padding-bottom: 15px;
   width: 20%;
-    }
+}
 
 .site-navigation li:first-child {
   margin-left: 6%;
@@ -1162,7 +1161,7 @@ fieldset {
   margin-top: 18px;
 }
 .advantages-item-grey {
-z-index: 5;
+  z-index: 5;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   background-color: #eeeeee;
@@ -1278,10 +1277,9 @@ li .item-grey-text {
 
 /* Стили для кнопки поиска на главной странице*/
 .button-search {
-
   width: 568px;
   height: 86px;
-  z-index:2;
+  z-index: 2;
   font: inherit;
   font-size: 21px;
   line-height: 26px;
@@ -1363,17 +1361,17 @@ li .item-grey-text {
   background-color: #ffffff;
 }
 
-.search::before{
-  content:"";
+.search::before {
+  content: "";
   display: block;
-background-color: #ffffff;
-position: absolute;
+  background-color: #ffffff;
+  position: absolute;
 
-top: 0;
-left: 0;
-right: 0;
-bottom: 0;
-z-index: 2;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 2;
 }
 
 .modal-search {
@@ -1381,10 +1379,10 @@ z-index: 2;
   margin: 0;
   margin-left: 315px;
   position: absolute;
-  top:100%;
-  left:0%;
+  top: 100%;
+  left: 0%;
 
-  z-index:1;
+  z-index: 1;
   display: -webkit-box;
 
   display: -ms-flexbox;
@@ -1414,7 +1412,7 @@ z-index: 2;
   }
 }
 
-.modal-hid{
+.modal-hid {
   display: none;
 }
 
@@ -1425,22 +1423,21 @@ z-index: 2;
   animation-duration: 0.5s;
 }
 
-.modal-error{
+.modal-error {
+  -webkit-animation-name: shake;
 
-  -webkit-animation-name:shake;
-
-          animation-name:shake;
+  animation-name: shake;
   -webkit-animation-duration: 0.6s;
-          animation-duration: 0.6s;
- }
+  animation-duration: 0.6s;
+}
 
 .search-title {
   margin-top: 51px;
-  z-index:3;
+  z-index: 3;
 }
 
 .search-text {
-  z-index:4;
+  z-index: 4;
   margin: 0;
   margin-top: 9px;
   margin-bottom: 47px;
@@ -1592,7 +1589,7 @@ input::-ms-clear {
 
 .check-in input[type="text"] {
   margin-bottom: 30px;
-  padding-right:30px;
+  padding-right: 30px;
 }
 
 .check-out input[type="text"] {
@@ -1753,9 +1750,8 @@ input::-ms-clear {
   background-color: #f2f1ef;
 }
 
-.iframe-map{
+.iframe-map {
   position: absolute;
-
 }
 
 .map p {
