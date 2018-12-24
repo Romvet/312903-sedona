@@ -1277,7 +1277,7 @@ li .item-grey-text {
 
 /* Стили для кнопки поиска на главной странице*/
 .button-search {
-  position: relative;
+
   width: 568px;
   height: 86px;
 
@@ -1345,6 +1345,7 @@ li .item-grey-text {
   display: -webkit-box;
 
   display: -ms-flexbox;
+  position: relative;
 
   display: flex;
   -webkit-box-orient: vertical;
@@ -1366,6 +1367,8 @@ li .item-grey-text {
   margin: 0;
   margin-left: 315px;
   position: absolute;
+  bottom:-118%;
+  left:0%;
 
   z-index: 1;
   display: -webkit-box;
