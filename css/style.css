@@ -1367,7 +1367,7 @@ li .item-grey-text {
   margin: 0;
   margin-left: 315px;
   position: absolute;
-  bottom:-118%;
+  top:100%;
   left:0%;
 
   z-index: 1;
@@ -1393,7 +1393,7 @@ li .item-grey-text {
 
 @keyframes flip {
   from {
-    transform: translateY(-20%);
+    transform: translateY(-100%);
   }
   to {
     transform: translateY(0);
