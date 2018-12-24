@@ -17,11 +17,5 @@ clickbutton.addEventListener("click", function (evt) {
     checkin.focus();
    })
 
-/*
-  form.addEventListener("submit", function (evt) {
-    if(!checkin.value || !checkout.value || !numberpeople.value || !numberchild.value){
-    evt.preventDefault();
-    modalform.classList.add("modal-error");
-  }
-  });*/
+
 
