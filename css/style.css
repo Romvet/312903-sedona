@@ -1162,7 +1162,7 @@ fieldset {
   margin-top: 18px;
 }
 .advantages-item-grey {
-  position: relative;
+z-index: 5;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   background-color: #eeeeee;
@@ -1364,6 +1364,8 @@ li .item-grey-text {
 }
 
 .search::before{
+  content:"";
+  display: block;
 background-color: #ffffff;
 position: absolute;
 
@@ -1371,7 +1373,7 @@ top: 0;
 left: 0;
 right: 0;
 bottom: 0;
-z-index: 5;
+z-index: 2;
 }
 
 .modal-search {
