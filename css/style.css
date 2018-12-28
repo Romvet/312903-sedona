@@ -391,7 +391,7 @@ fieldset {
   color: #000000;
 }
 
-.current a{
+li + .current{
   color: #81b3d2;
 }
 
@@ -482,9 +482,8 @@ fieldset {
 }
 
 .sorting-button-up:hover path,
-.sorting-button-down:hover path,
-.sorting-button-up:focus path,
-.sorting-button-down:focus path {
+.sorting-button-up:focus path
+ {
   fill: #000000;
 }
 
@@ -493,7 +492,7 @@ fieldset {
   fill: #87b6d4;
 }
 
-.current svg path {
+.current path {
   fill: #87b6d4;
 }
 
