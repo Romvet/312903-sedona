@@ -36,7 +36,9 @@ form.addEventListener("submit", function(evt) {
     !numberchild.value
   ) {
     evt.preventDefault();
-    console.log("Заполните пустые поля");
+    form.classList.remove("modal-error");
+    form.offsetWidth = form.offsetWidth;
+    form.classList.add("modal-error");
   } else {
     if (isStorageSupport) {
       localStorage.setItem("checkin", login.value);

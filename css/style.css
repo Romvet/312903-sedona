@@ -107,7 +107,7 @@ a {
   cursor: pointer;
 }
 
-label::after {
+.filter-option label::after {
   content: "";
   position: absolute;
 
@@ -121,7 +121,7 @@ label::after {
   background-repeat: no-repeat;
 }
 
-input[type="checkbox"]:focus + label {
+.filter-option input[type="checkbox"]:focus + label {
   outline: 1px solid #c9cbcc;
   outline-style: ridge;
 }
@@ -142,10 +142,7 @@ input[type="checkbox"]:focus + label {
   background-image: url("../img/checkbox-on-disabled.svg");
 }
 
-fieldset {
-  margin: 0;
-  padding: 0;
-
+.filter fieldset {
   border: none;
 }
 
@@ -162,7 +159,7 @@ fieldset {
 .filter-range legend {
   margin: 0;
   padding: 0;
-  margin-bottom:10px;
+  margin-bottom: 10px;
 }
 
 /* Конец Стили для фильтра на странице с отелями*/
@@ -171,7 +168,7 @@ fieldset {
 .filter-range {
   margin: 0;
   padding: 0;
-  padding-left:1px;
+  padding-left: 1px;
   width: 314px;
 
   color: #ffffff;
@@ -220,8 +217,8 @@ fieldset {
   display: inline-block;
 
   font-size: 14px;
-  line-height:21px;
-  vertical-align:top;
+  line-height: 21px;
+  vertical-align: top;
 
   cursor: pointer;
 }
@@ -371,9 +368,9 @@ fieldset {
 
 .sorting-item {
   margin: 0;
-  margin-left:32px;
+  margin-left: 32px;
   padding: 0;
-  padding-top:3px;
+  padding-top: 3px;
 }
 
  .sorting-link{
@@ -387,11 +384,13 @@ fieldset {
 
 .sorting-link:active {
   color: #000000;
+  border-bottom: none;
 }
 
 .sorting-item .current {
   color: #81b3d2;
-}
+  border-bottom: none;
+  }
 
 .sorting-item:first-child {
   margin-left: 40px;
@@ -424,7 +423,7 @@ fieldset {
   list-style: none;
 }
 
-.sorting-list li {
+.sorting-link {
   font-size: 12px;
   line-height: 18px;
 
@@ -766,6 +765,7 @@ fieldset {
 /* Стили для шапки*/
 .main-header {
   width: 100%;
+  position: relative;
 
   background-color: #ffffff;
 }
@@ -842,7 +842,7 @@ fieldset {
 }
 
 .navigation-info,
-.navigation-foto-video {
+.navigation-photo-video {
   text-align: left;
 }
 
@@ -1145,7 +1145,7 @@ fieldset {
   text-align: center;
 }
 
-.advantages-canyon-foto {
+.advantages-canyon-photo {
   -webkit-box-ordinal-group: 0;
   -ms-flex-order: -1;
   order: -1;
@@ -1183,8 +1183,8 @@ li .item-grey-text {
   color: #ffffff;
 }
 
-.advantages-city-foto,
-.advantages-canyon-foto {
+.advantages-city-photo,
+.advantages-canyon-photo {
   padding: 0;
   margin: 0;
   width: 800px;
@@ -1367,8 +1367,34 @@ li .item-grey-text {
   }
 }
 
+@keyframes shake {
+  0%,
+  100% {
+    transform: translateX(0);
+  }
+
+  10%,
+  30%,
+  50%,
+  70%,
+  90% {
+    transform: translateX(-10px);
+  }
+
+  20%,
+  40%,
+  60%,
+  80% {
+    transform: translateX(10px);
+  }
+}
+
 .modal-hid {
   display: none;
+}
+
+.modal-error {
+  animation: shake 0.6s;
 }
 
 .modal-show {
@@ -1536,7 +1562,7 @@ input::-ms-clear {
 
 .check-in input[type="text"] {
 
-  margin-bottom:30px;
+  margin-bottom: 30px;
   padding-right: 30px;
 }
 
@@ -1734,7 +1760,7 @@ input::-ms-clear {
   background-color: rgba(249, 251, 246, 0.9);
 }
 
-.main-footer-calalog {
+.main-footer-catalog {
   width: 100%;
 
   margin: 0;
