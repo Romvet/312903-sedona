@@ -49,9 +49,7 @@ a {
   padding-right: 72px;
 
   display: -webkit-box;
-
   display: -ms-flexbox;
-
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
@@ -171,10 +169,10 @@ fieldset {
 
 /*Стили для сложного фильтра */
 .filter-range {
-  width: 314px;
   margin: 0;
   padding: 0;
   padding-left:1px;
+  width: 314px;
 
   color: #ffffff;
   text-transform: uppercase;
@@ -207,7 +205,7 @@ fieldset {
   content: "";
   position: absolute;
   top: 50%;
-  left: 50.5%;
+  left: 50.3%;
 
   width: 2px;
   height: 22px;
@@ -378,20 +376,20 @@ fieldset {
   padding-top:3px;
 }
 
-.sorting-item a {
+ .sorting-link{
   color: #cccccc;
 }
 
-.sorting-item a:hover,
-.sorting-item a:focus {
+.sorting-link:hover,
+.sorting-link:focus {
   color: #81b3d2;
 }
 
-.sorting-item a:active {
+.sorting-link:active {
   color: #000000;
 }
 
-li + .current{
+.sorting-item .current {
   color: #81b3d2;
 }
 
