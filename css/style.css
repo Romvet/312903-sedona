@@ -385,6 +385,7 @@ a {
 .sorting-link:active {
   color: #000000;
   border-bottom: none;
+  outline: none;
 }
 
 .sorting-item .current {
